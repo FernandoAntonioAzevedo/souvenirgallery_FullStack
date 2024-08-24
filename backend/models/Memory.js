@@ -1,5 +1,5 @@
-const mongoose = require("mongoose")
-const Schema = mongoose.Schema
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
 const commentSchema = new Schema({
     name: {
@@ -15,20 +15,20 @@ const commentSchema = new Schema({
 const MemorySchema = new Schema({    
     title: {
         type: String,
-        required: true
+        required: true,
     },
     src: {
         type: String,
-        required: true
+        required: true,
     },
     description: {
         type: String,
-        required: true
+        required: true,
     },
     favorite: {
         type: Boolean,            
     },
-    comments: [commentSchema]
+    comments: [commentSchema],
     
   },
   { timestamps: true }
