@@ -6,14 +6,14 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <h2>
-        <Link to="/">Memories</Link>
+        <Link to="/">Galeria Recordações</Link>
       </h2>
       <ul>
         <li>
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/add-memory">Adicionar Memória</Link>
+          <Link to="/add-memory">Adicionar Recordação</Link>
         </li>
       </ul>
     </nav>
